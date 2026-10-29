@@ -136,3 +136,11 @@ body:has(.home-carousel) footer{margin-top:30px;}
 @media(prefers-reduced-motion:reduce){.home-track{scroll-behavior:auto;}}
 
 .home-slide .home-agent-feature{grid-template-rows:minmax(0,1fr);}.home-slide .home-agent-poster{min-height:0;}.home-slide .home-agent-poster img{min-height:0;object-fit:contain;}
+
+/* Film trailers */
+.film-trailer{margin-top:28px;}
+.trailer-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:12px;}
+.trailer-heading h2{font-family:inherit;font-size:16px;line-height:1.4;margin:0;}
+.trailer-heading a{font-size:12px;color:var(--muted);}
+.trailer-heading a:hover{color:var(--accent);}
+.film-trailer iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;background:#111;}
