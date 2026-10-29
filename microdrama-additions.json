@@ -1,0 +1,112 @@
+[
+  {
+    "order": 1,
+    "title": "Agent of Shadows",
+    "platform": "ReelShort",
+    "description": "A secret agent goes undercover as his young daughter’s nanny, protecting his family while trying to earn their trust.",
+    "description_status": "approved; exact saved draft text",
+    "poster": "posters/agent-of-shadows.jpg",
+    "poster_width": 1080,
+    "poster_height": 1440,
+    "poster_sha256": "4be4a1c7a1ea600372ba7541d1fcc29575e2f20c90b9e9c117da490f825c7108",
+    "watch_url": "https://www.reelshort.com/movie/agent-of-shadows-6abfeb8375b6b07d830d6b99",
+    "synopsis_source": "https://www.reelshort.com/episodes/episode-10-agent-of-shadows-6abfeb8375b6b07d830d6b99-f7azfn9itb",
+    "poster_source_page": "https://shortdramadb.com/dramas/agent-of-shadows-20255",
+    "poster_source_image": "https://shortdramadb.com/collection/library/20255.jpg",
+    "site_status": "Saved as draft; not published. Later formatting/order persistence unverified.",
+    "poster_note": null,
+    "slug": "agent-of-shadows",
+    "image": {
+      "src": "/assets/microdramas/agent-of-shadows.jpg"
+    },
+    "description_es": "Un agente secreto se infiltra como niñero de su hija pequeña para proteger a su familia mientras intenta ganarse su confianza."
+  },
+  {
+    "order": 2,
+    "title": "Rise of the Caged King",
+    "platform": "ReelShort",
+    "description": "Framed for murder by his wife and rival, a businessman emerges from prison determined to reclaim his life and rescue his daughter.",
+    "description_status": "approved; exact saved draft text",
+    "poster": "posters/rise-of-the-caged-king.jpg",
+    "poster_width": 640,
+    "poster_height": 853,
+    "poster_sha256": "08338faf3433a6fd0a985abb4eb1f650c9cd789d3accddc571daeb262d92af47",
+    "watch_url": "https://www.reelshort.com/movie/rise-of-the-caged-king-6a3d980baaf954b86307ecc4",
+    "synopsis_source": "https://www.reelshort.com/full-episodes/rise-of-the-caged-king-6a3d980baaf954b86307ecc4/2",
+    "poster_source_page": "https://shortdramadb.com/dramas/rise-of-the-caged-king-15970",
+    "poster_source_image": "https://shortdramadb.com/collection/library/15970.jpg",
+    "site_status": "Saved as draft; not published. Later formatting/order persistence unverified.",
+    "poster_note": null,
+    "slug": "rise-of-the-caged-king",
+    "image": {
+      "src": "/assets/microdramas/rise-of-the-caged-king.jpg"
+    },
+    "description_es": "Tras ser acusado falsamente de asesinato por su esposa y su rival, un empresario sale de prisión decidido a recuperar su vida y rescatar a su hija."
+  },
+  {
+    "order": 3,
+    "title": "Charmed to Meet You, Too",
+    "platform": "ReelShort",
+    "description": "A lost phone number sends Tyler on a viral search for Lexi, while a tropical wedding and a familiar heart-shaped charm give fate another chance.",
+    "description_status": "approved; exact saved draft text",
+    "poster": "posters/charmed-to-meet-you-too.jpg",
+    "poster_width": 1080,
+    "poster_height": 1440,
+    "poster_sha256": "71b2bcd8e887be0277b6b3956bc057ab6ca5cc2eefc8a9908c589a33f5eefc4d",
+    "watch_url": "https://www.reelshort.com/movie/charmed-to-meet-you-too-6a0563dd37f9bcda0900318a",
+    "synopsis_source": "https://www.reelshort.com/full-episodes/charmed-to-meet-you-too-6a0563dd37f9bcda0900318a",
+    "poster_source_page": "https://shortdramadb.com/dramas/charmed-to-meet-you-too-20390",
+    "poster_source_image": "https://shortdramadb.com/collection/library/20390.jpg",
+    "site_status": "Saved as draft; not published. Later formatting/order persistence unverified.",
+    "poster_note": "Correct sequel poster: woman between two men, ReelShort/Crocs marks, title ending Too; not the first installment staircase poster.",
+    "slug": "charmed-to-meet-you-too",
+    "image": {
+      "src": "/assets/microdramas/charmed-to-meet-you-too.jpg"
+    },
+    "description_es": "Un número de teléfono perdido lleva a Tyler a emprender una búsqueda viral de Lexi, mientras una boda tropical y un conocido colgante en forma de corazón le dan otra oportunidad al destino."
+  },
+  {
+    "order": 4,
+    "title": "Don’t Blink, You’ll Miss It",
+    "platform": "ReelShort",
+    "description": "After a fatal casino heist drives him into hiding, a master magician returns to reclaim his title and save his childhood orphanage.",
+    "description_status": "approved; exact saved draft text",
+    "poster": "posters/dont-blink-youll-miss-it.jpg",
+    "poster_width": 640,
+    "poster_height": 853,
+    "poster_sha256": "eaa0ef6faca92803b4fdb428e0b4f5aecb63e41c134d2e802dce17be28e684ce",
+    "watch_url": "https://www.reelshort.com/movie/don-t-blink-you-ll-miss-it-69d91b958836620d0a0d5bdf",
+    "synopsis_source": "https://www.reelshort.com/movie/don-t-blink-you-ll-miss-it-69d91b958836620d0a0d5bdf",
+    "poster_source_page": "https://shortdramadb.com/dramas/dont-blink-youll-miss-it-13399",
+    "poster_source_image": "https://shortdramadb.com/collection/library/13399.jpg",
+    "site_status": "Saved as draft; not published. Later formatting/order persistence unverified.",
+    "poster_note": null,
+    "slug": "dont-blink-youll-miss-it",
+    "image": {
+      "src": "/assets/microdramas/dont-blink-youll-miss-it.jpg"
+    },
+    "description_es": "Después de que un atraco mortal a un casino lo obligara a esconderse, un maestro de la magia regresa para recuperar su título y salvar el orfanato donde creció."
+  },
+  {
+    "order": 5,
+    "title": "Ace! The Golf King’s Reconquest",
+    "platform": "ReelShort",
+    "description": "A former golf champion returns to the game after years raising his daughter, determined to secure her future.",
+    "description_status": "approved; exact saved draft text",
+    "poster": "posters/ace-the-golf-kings-reconquest.jpg",
+    "poster_width": 640,
+    "poster_height": 853,
+    "poster_sha256": "4b5a65ff482a71624dccfedf6d855ea90b86340b40606bf2c90f9c3b56b505b0",
+    "watch_url": "https://www.reelshort.com/movie/ace-the-golf-king-s-reconquest-69d91aac64eba2f58b0ac51c",
+    "synopsis_source": "https://www.reelshort.com/full-episodes/ace-the-golf-king-s-reconquest-69d91aac64eba2f58b0ac51c/4",
+    "poster_source_page": "https://shortdramadb.com/dramas/ace-the-golf-kings-reconquest-12361",
+    "poster_source_image": "https://shortdramadb.com/collection/library/12361.jpg",
+    "site_status": "Saved as draft; not published. Later formatting/order persistence unverified.",
+    "poster_note": null,
+    "slug": "ace-the-golf-kings-reconquest",
+    "image": {
+      "src": "/assets/microdramas/ace-the-golf-kings-reconquest.jpg"
+    },
+    "description_es": "Un antiguo campeón de golf vuelve al deporte tras años dedicados a criar a su hija, decidido a asegurar su futuro."
+  }
+]

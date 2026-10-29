@@ -1,0 +1,50 @@
+SOURCES AND ASSET PROVENANCE
+Prepared 29 October 2026.
+
+Posters are actual downloaded JPEGs, not generated mockups. They were retrieved from ShortDramaDB, a secondary database, and visually checked for title and ReelShort branding. Official ReelShort pages returned CloudFront 403 during original research; these images are not claimed to have been downloaded from the official host. Synopses were verified against official indexed ReelShort descriptions. No independent rights clearance was established. Confirm permitted poster use before public distribution.
+
+Agent of Shadows
+Poster file: posters/agent-of-shadows.jpg
+Native resolution: 1080 × 1440 pixels
+Poster page: https://shortdramadb.com/dramas/agent-of-shadows-20255
+Poster image: https://shortdramadb.com/collection/library/20255.jpg
+Official watch page: https://www.reelshort.com/movie/agent-of-shadows-6abfeb8375b6b07d830d6b99
+Official synopsis evidence: https://www.reelshort.com/episodes/episode-10-agent-of-shadows-6abfeb8375b6b07d830d6b99-f7azfn9itb
+SHA-256: 4be4a1c7a1ea600372ba7541d1fcc29575e2f20c90b9e9c117da490f825c7108
+
+Rise of the Caged King
+Poster file: posters/rise-of-the-caged-king.jpg
+Native resolution: 640 × 853 pixels
+Poster page: https://shortdramadb.com/dramas/rise-of-the-caged-king-15970
+Poster image: https://shortdramadb.com/collection/library/15970.jpg
+Official watch page: https://www.reelshort.com/movie/rise-of-the-caged-king-6a3d980baaf954b86307ecc4
+Official synopsis evidence: https://www.reelshort.com/full-episodes/rise-of-the-caged-king-6a3d980baaf954b86307ecc4/2
+SHA-256: 08338faf3433a6fd0a985abb4eb1f650c9cd789d3accddc571daeb262d92af47
+
+Charmed to Meet You, Too
+Poster file: posters/charmed-to-meet-you-too.jpg
+Native resolution: 1080 × 1440 pixels
+Poster page: https://shortdramadb.com/dramas/charmed-to-meet-you-too-20390
+Poster image: https://shortdramadb.com/collection/library/20390.jpg
+Official watch page: https://www.reelshort.com/movie/charmed-to-meet-you-too-6a0563dd37f9bcda0900318a
+Official synopsis evidence: https://www.reelshort.com/full-episodes/charmed-to-meet-you-too-6a0563dd37f9bcda0900318a
+SHA-256: 71b2bcd8e887be0277b6b3956bc057ab6ca5cc2eefc8a9908c589a33f5eefc4d
+Correct sequel poster: woman between two men, ReelShort/Crocs marks, title ending Too; not the first installment staircase poster.
+
+Don’t Blink, You’ll Miss It
+Poster file: posters/dont-blink-youll-miss-it.jpg
+Native resolution: 640 × 853 pixels
+Poster page: https://shortdramadb.com/dramas/dont-blink-youll-miss-it-13399
+Poster image: https://shortdramadb.com/collection/library/13399.jpg
+Official watch page: https://www.reelshort.com/movie/don-t-blink-you-ll-miss-it-69d91b958836620d0a0d5bdf
+Official synopsis evidence: https://www.reelshort.com/movie/don-t-blink-you-ll-miss-it-69d91b958836620d0a0d5bdf
+SHA-256: eaa0ef6faca92803b4fdb428e0b4f5aecb63e41c134d2e802dce17be28e684ce
+
+Ace! The Golf King’s Reconquest
+Poster file: posters/ace-the-golf-kings-reconquest.jpg
+Native resolution: 640 × 853 pixels
+Poster page: https://shortdramadb.com/dramas/ace-the-golf-kings-reconquest-12361
+Poster image: https://shortdramadb.com/collection/library/12361.jpg
+Official watch page: https://www.reelshort.com/movie/ace-the-golf-king-s-reconquest-69d91aac64eba2f58b0ac51c
+Official synopsis evidence: https://www.reelshort.com/full-episodes/ace-the-golf-king-s-reconquest-69d91aac64eba2f58b0ac51c/4
+SHA-256: 4b5a65ff482a71624dccfedf6d855ea90b86340b40606bf2c90f9c3b56b505b0
