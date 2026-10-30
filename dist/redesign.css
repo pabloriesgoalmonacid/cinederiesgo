@@ -144,3 +144,12 @@ body:has(.home-carousel) footer{margin-top:30px;}
 .trailer-heading a{font-size:12px;color:var(--muted);}
 .trailer-heading a:hover{color:var(--accent);}
 .film-trailer iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;background:#111;}
+
+/* Trailer-led film pages: video, details, poster. */
+.film-page-stacked{max-width:1050px;margin-inline:auto;}
+.film-page-stacked .film-trailer{margin:28px 0 0;}
+.film-page-stacked .film-copy{width:100%;max-width:760px;margin:48px auto;}
+.film-page-stacked .film-facts{margin-bottom:28px;}
+.film-poster-wrap{max-width:560px;margin:0 auto;}
+.film-poster-wrap .film-poster{display:block;width:100%;height:auto;object-fit:contain;}
+@media(max-width:600px){.film-page-stacked .film-copy{margin:32px auto;}.film-page-stacked .film-trailer{margin-top:20px;}}

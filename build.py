@@ -52,6 +52,10 @@ def content(name):
    trailer_label='Tráiler' if LANG=='es' else 'Trailer'
    youtube_label='Ver en YouTube ↗' if LANG=='es' else 'Watch on YouTube ↗'
    trailer='<section class="film-trailer" aria-labelledby="trailer-title"><div class="trailer-heading"><h2 id="trailer-title">'+trailer_label+'</h2><a href="https://www.youtube.com/watch?v='+video_id+'" target="_blank" rel="noopener noreferrer">'+youtube_label+'</a></div><iframe src="https://www.youtube-nocookie.com/embed/'+video_id+'" title="'+e(titles[name])+' — '+trailer_label+'" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>'
+  if trailer:
+   metadata='<ul class="film-facts">'+''.join('<li>'+e(fact)+'</li>' for fact in facts)+'</ul>'
+   poster=img(ims[-1],titles[name]+(' — cartel' if LANG=='es' else ' — poster'),'film-poster')
+   return '<a class="back" href="/peliculas/">'+back+'</a><article class="film-page film-page-stacked"><h1 class="film-title">'+titles[name]+'</h1>'+trailer+'<div class="film-copy">'+metadata+overview+credits+note+'</div><div class="film-poster-wrap">'+poster+'</div></article>'
   return '<a class="back" href="/peliculas/">'+back+'</a><article class="film-page"><h1 class="film-title">'+titles[name]+'</h1><ul class="film-facts">'+''.join('<li>'+e(fact)+'</li>' for fact in facts)+'</ul><div class="film-overview"><div class="film-artwork">'+img(ims[0],titles[name])+trailer+'</div><div class="film-copy">'+overview+credits+note+'</div></div></article>'+''.join(img(im,titles[name],'film-still') for im in ims[1:])
 
  if name=='contacto':
