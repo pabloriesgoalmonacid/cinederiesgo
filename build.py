@@ -46,7 +46,7 @@ def content(name):
   overview='<section class="film-synopsis"><h2>'+('Sinopsis' if LANG=='es' else 'Synopsis')+'</h2>'+para(synopsis)+'</section>'
   note='<section class="film-note"><h2>'+('Sobre la película' if LANG=='es' else 'About the film')+'</h2>'+para(b[-1]['text'])+'</section>'
   trailer=''
-  trailer_ids={'marco-polo':'R3JV9t2qpus','mis-alignment':'fE8Beze401M'}
+  trailer_ids={'marco-polo':'R3JV9t2qpus','mis-alignment':'fE8Beze401M','cvalt':'n_6GGcA45Dw'}
   if name in trailer_ids:
    video_id=trailer_ids[name]
    trailer_label='Tráiler' if LANG=='es' else 'Trailer'
