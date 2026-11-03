@@ -158,7 +158,6 @@ body:has(.home-carousel) footer{margin-top:30px;}
 .contact .contact-label{font-family:inherit;font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:#666;margin:0 0 14px;line-height:1.5}
 .contact-email{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:20px;border-bottom:1px solid #dcded9;font-size:clamp(18px,2.15vw,28px);line-height:1.4;letter-spacing:-.035em;transition:color .2s,border-color .2s}
 .contact-email span:first-child{overflow-wrap:anywhere}
-.contact-email span:last-child{font-size:24px;color:var(--accent);flex-shrink:0}
 .contact-email:hover{text-decoration:none;border-color:var(--accent)}
 .contact-entities{margin-top:25px}
 .contact .contact-entities p{font-size:13px;line-height:1.8;color:#73766f;margin:0;letter-spacing:.015em}
