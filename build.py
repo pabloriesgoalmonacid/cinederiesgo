@@ -36,7 +36,7 @@ def content(name):
  if name=='informacion':
   bio='Pablo Riesgo Almonacid es guionista y director. Ha escrito y dirigido Marco Polo, Cuando Volvimos A La Tierra, Mis-Alignment y Tiro Dominical. Su trabajo en Cine De Riesgo abarca el largometraje y el cortometraje.' if LANG=='es' else 'Pablo Riesgo Almonacid is a writer and director. He wrote and directed Marco Polo, Cuando Volvimos A La Tierra, Mis-Alignment and Tiro Dominical. His work at Cine De Riesgo spans feature and short films.'
   role='Guionista y director' if LANG=='es' else 'Writer & director'
-  return '<div class="split story"><aside><h1>Nuestra historia</h1></aside><div>'+''.join(para(x['text']) for x in [b[1 if LANG=='es' else 2]])+'</div></div><section class="split about-bio"><div><span class="kicker">'+role+'</span><h2>Pablo Riesgo<br>Almonacid</h2></div><div>'+para(bio)+'</div></section>'
+  return '<div class="split story"><aside><h1>Nuestra historia</h1></aside><div>'+''.join(para(paragraph) for paragraph in b[1 if LANG=='es' else 2]['text'].split('\n\n'))+'</div></div><section class="split about-bio"><div><span class="kicker">'+role+'</span><h2>Pablo Riesgo<br>Almonacid</h2></div><div>'+para(bio)+'</div></section>'
  if name in films:
   synopsis=D['peliculas']['blocks'][3+films.index(name)*2]['text']
   back='← Todas las películas' if LANG=='es' else '← All films'
