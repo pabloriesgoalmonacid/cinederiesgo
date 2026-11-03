@@ -46,10 +46,10 @@ def content(name):
   overview='<section class="film-synopsis"><h2>'+('Sinopsis' if LANG=='es' else 'Synopsis')+'</h2>'+para(synopsis)+'</section>'
   note='<section class="film-note"><h2>'+('Sobre la película' if LANG=='es' else 'About the film')+'</h2>'+para(b[-1]['text'])+'</section>'
   trailer=''
-  trailer_ids={'marco-polo':'R3JV9t2qpus','mis-alignment':'fE8Beze401M','cvalt':'n_6GGcA45Dw'}
+  trailer_ids={'marco-polo':'R3JV9t2qpus','mis-alignment':'fE8Beze401M','cvalt':'n_6GGcA45Dw','tiro-dominical':'5-mvtIxGs4A'}
   if name in trailer_ids:
    video_id=trailer_ids[name]
-   trailer_label='Tráiler' if LANG=='es' else 'Trailer'
+   trailer_label='Teaser' if name=='tiro-dominical' else ('Tráiler' if LANG=='es' else 'Trailer')
    youtube_label='Ver en YouTube ↗' if LANG=='es' else 'Watch on YouTube ↗'
    trailer='<section class="film-trailer" aria-labelledby="trailer-title"><div class="trailer-heading"><h2 id="trailer-title">'+trailer_label+'</h2><a href="https://www.youtube.com/watch?v='+video_id+'" target="_blank" rel="noopener noreferrer">'+youtube_label+'</a></div><iframe src="https://www.youtube-nocookie.com/embed/'+video_id+'" title="'+e(titles[name])+' — '+trailer_label+'" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>'
   if trailer:
