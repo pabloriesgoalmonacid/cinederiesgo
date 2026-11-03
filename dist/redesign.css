@@ -151,3 +151,15 @@ body:has(.home-carousel) footer{margin-top:30px;}
 .film-poster-wrap{max-width:560px;margin:0 auto;}
 .film-poster-wrap .film-poster{display:block;width:100%;height:auto;object-fit:contain;}
 @media(max-width:600px){.film-page-stacked .film-copy{margin:32px auto;}.film-page-stacked .film-trailer{margin-top:20px;}}
+
+/* Minimal contact identity: email first, legal entities secondary. */
+.contact-details{align-self:start;padding-top:12px;min-width:0}
+.contact-marker{display:block;width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 16px rgba(var(--accent-rgb),.35);margin-bottom:32px}
+.contact .contact-label{font-family:inherit;font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:#666;margin:0 0 14px;line-height:1.5}
+.contact-email{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:20px;border-bottom:1px solid #dcded9;font-size:clamp(18px,2.15vw,28px);line-height:1.4;letter-spacing:-.035em;transition:color .2s,border-color .2s}
+.contact-email span:first-child{overflow-wrap:anywhere}
+.contact-email span:last-child{font-size:24px;color:var(--accent);flex-shrink:0}
+.contact-email:hover{text-decoration:none;border-color:var(--accent)}
+.contact-entities{margin-top:25px}
+.contact .contact-entities p{font-size:13px;line-height:1.8;color:#73766f;margin:0;letter-spacing:.015em}
+@media(max-width:560px){.contact-details{padding-top:0}.contact-marker{margin-bottom:24px}.contact-email{font-size:23px}.contact-entities{margin-top:18px}}
