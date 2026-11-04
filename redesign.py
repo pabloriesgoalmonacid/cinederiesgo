@@ -35,4 +35,7 @@ def catalog(D):
  return '<div class="films-poster-gallery microdrama-posters">'+''.join(card(p) for p in projects(D))+'</div>'
 
 def detail(p):
- return '<a class="back" href="/microdramas/">← Todos los microdramas</a><article class="micro-detail"><div>'+picture(p['image'],p['title'],eager=True)+'</div><div><span class="kicker">MICRODRAMA · '+e(p['platform'])+'</span><h1>'+e(p['title'])+'</h1>'+award(p)+'<h2>Sinopsis</h2><p lang="en">'+e(p['synopsis'])+'</p><dl><div><dt>Formato</dt><dd>Serie vertical</dd></div><div><dt>Plataforma / colaboración</dt><dd>'+e(p['platform'])+'</dd></div></dl><a class="text-link" href="/contacto/">Hablemos de un proyecto ↗</a></div></article>'+contact()
+ streaming = ''
+ if p['slug'] == 'daddy-i-m-your-lucky-star':
+  streaming = '<div class="streaming-row"><dt>Ya disponible en</dt><dd><img class="streaming-logo" src="/assets/paramount-plus.svg" alt="Paramount+" width="100" height="62"></dd></div>'
+ return '<a class="back" href="/microdramas/">← Todos los microdramas</a><article class="micro-detail"><div>'+picture(p['image'],p['title'],eager=True)+'</div><div><span class="kicker">MICRODRAMA · '+e(p['platform'])+'</span><h1>'+e(p['title'])+'</h1>'+award(p)+'<h2>Sinopsis</h2><p lang="en">'+e(p['synopsis'])+'</p><dl><div><dt>Formato</dt><dd>Serie vertical</dd></div><div><dt>Plataforma / colaboración</dt><dd>'+e(p['platform'])+'</dd></div>'+streaming+'</dl></div></article>'+contact()

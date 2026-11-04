@@ -162,3 +162,6 @@ body:has(.home-carousel) footer{margin-top:30px;}
 .contact-entities{margin-top:25px}
 .contact .contact-entities p{font-size:13px;line-height:1.8;color:#73766f;margin:0;letter-spacing:.015em}
 @media(max-width:560px){.contact-details{padding-top:0}.contact-marker{margin-bottom:24px}.contact-email{font-size:23px}.contact-entities{margin-top:18px}}
+
+.micro-detail .streaming-row{align-items:center}
+.micro-detail .streaming-logo{display:block;width:100px;height:auto}
