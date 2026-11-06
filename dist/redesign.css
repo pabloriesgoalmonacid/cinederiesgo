@@ -165,3 +165,9 @@ body:has(.home-carousel) footer{margin-top:30px;}
 
 .micro-detail .streaming-row{align-items:center}
 .micro-detail .streaming-logo{display:block;width:100px;height:auto}
+
+/* Compact horizontal identity. Crop the supplied artwork's whitespace in layout. */
+header .brand{position:relative;display:block;width:250px;height:44px;overflow:hidden;flex-shrink:0}
+header .brand img{position:absolute;top:50%;left:-20.5%;width:138%!important;height:auto!important;max-width:none;object-fit:contain;transform:translateY(-49.5%);filter:none}
+@media(max-width:760px){header{position:relative;align-items:center}header .brand{width:220px}.menu{display:block;border:0;background:transparent;padding:15px 0}nav{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:20px;box-shadow:0 8px 15px #0001;z-index:5;font-size:17px}nav.open{display:flex;flex-direction:column}}
+@media(max-width:360px){header .brand{width:195px}}
