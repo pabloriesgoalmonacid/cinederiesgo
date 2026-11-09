@@ -2,6 +2,7 @@
 from pathlib import Path
 import json, html, shutil
 from press import press
+from film_press import reviews, watch
 from redesign import home, catalog, projects, detail
 from i18n import localized_data, translate_html, UI_EN, UI_ES
 ROOT=Path(__file__).parent
@@ -55,7 +56,7 @@ def content(name):
   if trailer:
    metadata='<ul class="film-facts">'+''.join('<li>'+e(fact)+'</li>' for fact in facts)+'</ul>'
    poster=img(ims[-1],titles[name]+(' — cartel' if LANG=='es' else ' — poster'),'film-poster')
-   return '<a class="back" href="/peliculas/">'+back+'</a><article class="film-page film-page-stacked"><h1 class="film-title">'+titles[name]+'</h1>'+trailer+'<div class="film-copy">'+metadata+overview+credits+note+'</div><div class="film-poster-wrap">'+poster+'</div></article>'
+   return '<a class="back" href="/peliculas/">'+back+'</a><article class="film-page film-page-stacked"><h1 class="film-title">'+titles[name]+'</h1>'+trailer+'<div class="film-copy">'+metadata+overview+credits+(watch(LANG) if name=='marco-polo' else '')+note+'</div><div class="film-poster-wrap">'+poster+'</div>'+(reviews(LANG) if name=='marco-polo' else '')+'</article>'
   return '<a class="back" href="/peliculas/">'+back+'</a><article class="film-page"><h1 class="film-title">'+titles[name]+'</h1><ul class="film-facts">'+''.join('<li>'+e(fact)+'</li>' for fact in facts)+'</ul><div class="film-overview"><div class="film-artwork">'+img(ims[0],titles[name])+trailer+'</div><div class="film-copy">'+overview+credits+note+'</div></div></article>'+''.join(img(im,titles[name],'film-still') for im in ims[1:])
 
  if name=='contacto':

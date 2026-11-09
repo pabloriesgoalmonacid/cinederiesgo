@@ -171,3 +171,13 @@ header .brand{position:relative;display:block;width:250px;height:44px;overflow:h
 header .brand img{position:absolute;top:50%;left:-20.5%;width:138%!important;height:auto!important;max-width:none;object-fit:contain;transform:translateY(-49.5%);filter:none}
 @media(max-width:760px){header{position:relative;align-items:center}header .brand{width:220px}.menu{display:block;border:0;background:transparent;padding:15px 0}nav{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:20px;box-shadow:0 8px 15px #0001;z-index:5;font-size:17px}nav.open{display:flex;flex-direction:column}}
 @media(max-width:360px){header .brand{width:195px}}
+
+/* Film availability and coverage share the site's restrained press styling. */
+.film-streaming{display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid var(--line);padding:22px 0;margin-bottom:32px}
+.film-streaming>span{color:var(--muted);font-size:13px}.film-streaming a{display:block;padding:6px 0}.film-streaming img{width:120px;height:auto}
+.film-reviews{margin:64px auto 0;max-width:1050px}.film-reviews h2{font-size:18px;margin-bottom:24px}.film-reviews .press-links a{grid-template-columns:150px 1fr 100px}.film-reviews .press-label{font-size:16px}
+@media(max-width:700px){.film-reviews .press-links a{grid-template-columns:1fr auto}.film-reviews .press-label{grid-column:1/-1}.film-reviews{margin-top:40px}}
+.press-logo-shoutout-la,.press-logo-bold-journey{filter:none}
+.film-reviews .press-logo{filter:none}
+
+.press-logo-shoutout-la{object-fit:cover;object-position:center}
